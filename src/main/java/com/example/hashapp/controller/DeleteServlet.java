@@ -19,7 +19,7 @@ public class DeleteServlet extends HttpServlet {
     public DatabaseWebService databaseWebService;
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         if (req.getParameter("id") != null) {
             Long id = Long.valueOf(req.getParameter("id"));
             databaseWebService.delete(id);

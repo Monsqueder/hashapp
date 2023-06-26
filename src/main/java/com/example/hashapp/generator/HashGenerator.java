@@ -4,11 +4,6 @@ import jakarta.ejb.Stateful;
 import jakarta.xml.bind.DatatypeConverter;
 import org.bouncycastle.crypto.digests.SHAKEDigest;
 
-import java.nio.charset.StandardCharsets;
-import java.security.AlgorithmParameters;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-
 @Stateful
 public class HashGenerator {
 

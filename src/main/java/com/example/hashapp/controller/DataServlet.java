@@ -26,7 +26,7 @@ public class DataServlet extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String value = req.getParameter("value");
         databaseWebService.save(value);
         List<Hash> hashList = databaseWebService.getAll();

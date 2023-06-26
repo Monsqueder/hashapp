@@ -2,7 +2,6 @@ package com.example.hashapp.db;
 
 import com.example.hashapp.model.Hash;
 import jakarta.ejb.EJB;
-import jakarta.inject.Inject;
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;
 import jakarta.jws.WebService;

@@ -2,7 +2,6 @@ package com.example.hashapp.db;
 
 import com.example.hashapp.model.Hash;
 import jakarta.ejb.Stateful;
-import jakarta.inject.Inject;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.Query;
